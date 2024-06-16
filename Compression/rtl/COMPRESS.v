@@ -1543,8 +1543,8 @@ module write_buffer(
             begin
                 mem_read_reg_nxt = mem_read_reg;
                 mem_write_reg_nxt = 1'b1;
-                mem_addr_reg_nxt = write_buffer_address; //input ¾×flip flop
-                write_buffer_nxt = write_buffer_write_data; // input ¾×flip flop
+                mem_addr_reg_nxt = write_buffer_address; //input Â¾Ã—flip flop
+                write_buffer_nxt = write_buffer_write_data; // input Â¾Ã—flip flop
                 // write_buffer_read_data_reg_nxt = write_buffer_read_data_reg;
                 write_buffer_stall_reg_nxt = 1'b1;             
             end
